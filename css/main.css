@@ -1,68 +1,102 @@
 .header {
-	background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(/Images/top-section_2180x750.jpg);
-	height: 100vh;
-    margin-top: 5%;
-	-webkit-background-size: cover;
-	background-size: cover;
-	background-position: center center;
-	position: relative;
+  /* background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url();
+  height: 100vh; */
+  width: 100%;
+  height: 600px;
+  background-image: url(Images/top-section_2180x750.jpg);
+  /* margin-top: 5%;*/
+  /* -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  position: relative; */
 }
 
-.nav-area{
-     margin-left: 70px;
-    margin-top: 10px;
+.Main {
+  display: flex;
+  grid-gap: 10px;
+  flex-direction: column;
+}
+
+.nav-area {
+  margin-left: 70px;
+  margin-top: 10px;
+}
+
+.nav-bar-list {
+  display: flex;
+
+  justify-content: flex-start;
+  grid-gap: 20px;
+}
+.nav-bar-L {
+  display: flex;
+  justify-content: flex-start;
+  grid-gap: 20px;
 }
 
 .nav-area li {
-	display: inline-block;
-   
+  display: inline-block;
+}
+
+.lineset {
+  display: flex;
+  width: 80%;
+  justify-content: inherit;
+}
+.wrapper {
+  display: flex;
+  /* justify-content: flex-end; */
+  justify-content: space-between;
+  align-items: center;
 }
 
 .nav-area li a {
-   
-	color: rgb(19, 14, 14);
-	text-decoration: none;
-	padding: 5px 20px;
-	font-family: poppins;
-	font-size: 16px;
-	text-transform: uppercase;
+  color: rgb(19, 14, 14);
+  text-decoration: none;
+  padding: 5px 20px;
+  font-family: poppins;
+  font-size: 16px;
+  text-transform: uppercase;
 }
-
 
 .logo {
-	float: left;
+  float: left;
 }
 .logo img {
-	width: 100%;
-	padding: 15px 0;
+  width: 100%;
+  padding: 15px 0;
 }
 .welcome-text {
-	position: absolute;
-	width: 600px;
-	height: 300px;
-	margin: 20% 30%;
-	text-align: center;
+  position: absolute;
+  width: 600px;
+  height: 300px;
+  margin: 20% 30%;
+  text-align: center;
 }
 .welcome-text h3 {
-	text-align: center;
-	color: #fff;
-	text-transform: uppercase;
-	font-size: 20px;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 20px;
 }
 .welcome-text h1 span {
-	color: #00fecb;
+  color: #00fecb;
 }
 .welcome-text a {
-	border: 1px solid #fff;
-	padding: 10px 25px;
-	text-decoration: none;
-	text-transform: uppercase;
-	font-size: 14px;
-	margin-top: 20px;
-	display: inline-block;
-	color: #fff;
+  border: 1px solid #fff;
+  padding: 10px 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-top: 20px;
+  display: inline-block;
+  color: #fff;
 }
 .welcome-text a:hover {
-	background: #fff;
-	color: #333;
+  background: #fff;
+  color: #333;
+}
+.Features-dr {
+  height: 200px;
+  background-color: aqua;
 }
